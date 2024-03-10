@@ -236,7 +236,7 @@ button a {
 	display: none;
 	position: fixed;
 	bottom: 30px;
-	right: 40px;
+	right: 20px;
 	z-index: 99;
 	font-size: 100%;
 	background-color: black;
