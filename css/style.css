@@ -235,15 +235,15 @@ button a {
 .top-button {
 	display: none;
 	position: fixed;
-	bottom: 10%;
-	right: 10%;
+	bottom: 8%;
+	right: 6%;
 	z-index: 99;
 	font-size: 100%;
 	background-color: black;
 	color: white;
 	border-radius: 10%;
-	width: 80px;
-    height: 80px;
+	width: 40px;
+    	height: 40px;
 }
 
 /* Cards */
@@ -460,6 +460,10 @@ div.photos {
 /* Tablet View Styling */ 
 
 @media only screen and (min-width: 550px) {
+     .top-button {
+	width: 80px;
+    	height: 80px;
+      }
 
     p {padding-block: 0%;}
 
