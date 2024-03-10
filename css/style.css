@@ -398,6 +398,7 @@ footer {
     color: #FF6D6D;
 }
 
+/* ADDED DURING CCP TABLET VIEW HW */
 
 /*Smaller text for cards*/
 p.classification {
@@ -412,6 +413,18 @@ p.classification {
 div.grid-gallery.recipe {
     grid-template-columns: 1fr;
     padding-block: 2.5%;
+}
+
+div.grid-gallery.recipe .photo1 {
+    width: 1000px;
+    height: 300px;
+    object-fit: cover;
+}
+
+div.photos img {
+    width: 350px;
+    height: 100px;
+    object-fit: cover;
 }
 
 
@@ -479,10 +492,7 @@ div.photos {
     div.grid-gallery.recipe .photo1 {
         grid-column: 1/4;
         grid-row-end: -1;
-        width: 1000px;
         height: 500px;
-        object-fit: cover;
-
     }
 
     div.photos {
@@ -491,11 +501,7 @@ div.photos {
         grid-gap: 2%;
         align-items: stretch;
     }
-    div.photos img {
-        width: 350px;
-        height: 100px;
-        object-fit: cover;
-    }
+
     div.photos img:last-child {
         grid-row-end: -1;
     }
@@ -505,4 +511,3 @@ div.photos {
     }
 
 }
-
