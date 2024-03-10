@@ -351,7 +351,7 @@ button a {
     align-content: space-evenly;
     align-items: center;
 }
-.grid-gallery img {height:fit-content;}
+.grid-gallery img { max-width: 100%;}
 
 .photo1 {
     grid-column: 1/2;
